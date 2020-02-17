@@ -1,8 +1,8 @@
 class GamesController < ApplicationController
-end
+  def new
+    @letters = Array('A'..'Z').sample(10)
+  end
 
-def new
-end
-
-def score
+  def score
+  end
 end
